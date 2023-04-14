@@ -1,5 +1,4 @@
 // app/Stats.tsx
-import { useEffect, useState } from 'react';
 import { getServerClient, getWeaviateStats } from '../lib/weaviate-client';
 
 interface StatsProps {
